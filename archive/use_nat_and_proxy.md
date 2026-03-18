@@ -10,7 +10,7 @@
 
 3. Open Ubuntu from the Windows menu and execute the following commands to start wsl-vpnkit :
     ```sh
-    nohup wsl.exe -d wsl-vpnkit --cd /app wsl-vpnkit start </dev/null >/dev/null 2>&
+    nohup wsl.exe -d wsl-vpnkit --cd /app wsl-vpnkit start </dev/null >/dev/null 2>&1 &
     curl ip.me
     ```
 
