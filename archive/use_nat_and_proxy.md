@@ -16,7 +16,7 @@
 
 4. Open Ubuntu from the Windows menu and execute the following script to install wsl-vpnkit, cntlm and redsocks as linux services :
     ```sh
-    curl https://raw.githubusercontent.com/ZeBidule/devbox-global/refs/heads/main/install_network.sh -o /tmp/install_network.sh
+    curl https://raw.githubusercontent.com/ZeBidule/devbox-global/refs/heads/main/archive/install_network.sh -o /tmp/install_network.sh
     chmod +x /tmp/install_network.sh
     sudo bash -x /tmp/install_network.sh
     ```
